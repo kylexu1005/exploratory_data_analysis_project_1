@@ -1,4 +1,5 @@
-## load the data from the data file
+# load the data from the data file
+
 setwd("~/Desktop/my_documents/coursera/fall_2015/exploratory_data_analysis/project_1")
 classes=c("character","character",rep("numeric",7))
 fulldata=read.table('./household_power_consumption.txt',colClasses=classes,na.strings=c('?'),sep=';',header=TRUE)
